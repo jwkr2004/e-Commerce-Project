@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+.container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#logo{
+    padding: 5px;
+    border: solid 1px white;
+    border-radius: 20%;
+}
+
+.cart{
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+.searchbar{
+    margin-right: 12px;
+}
+
+header h1{
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.BSLink{
+    color:rgb(51, 173, 3);
+}
+
+.BSLink:link{
+    color:rgb(51, 173, 3);
+}
+
+.BSLink:visited{
+    color:rgb(51, 173, 3);
+}
+
+.BSLink:hover{
+    color:rgb(80, 201, 0);
+}
+
+.BSLink:active{
+    color:rgb(51, 173, 3);
+}
+
+.background{
+    background-color:rgb(51, 173, 3);
+    width: 75%;
+    height: 75vh;
+    margin-left: 12.5%;
+    border: solid 2px black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.background h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 1px 2px black;
+}
+
+.browse-btn{
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    background-color: white;
+}
+
+.card{
+    padding: 4px;
+    transition:all 0.2s;
+}
+
+.card:hover{
+    background-color: rgb(240, 240, 240);
+}

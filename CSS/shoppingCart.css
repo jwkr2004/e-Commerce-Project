@@ -1,0 +1,48 @@
+#CartContent {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.CartItem {
+    border: solid 1px black;
+    background-color: rgb(62, 218, 0);
+    display: flex;
+    margin: 5px 0;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.CartItem .text {
+    margin-right: 5%;
+}
+
+.remove {
+    font-size: 1.5rem;
+    padding: 0 6px 4px;
+    border: solid black 1px;
+    background-color: red;
+    color: white;
+    margin-left: 30%;
+    border-radius: 5px;
+}
+
+.quantityLabel { 
+    margin-left: 10%;
+}
+
+.quantity {
+    width: 50px;
+    height:34px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.apply {
+    display: none;
+    width: 48px;
+    height:34px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.7rem;
+}
